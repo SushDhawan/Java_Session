@@ -1,0 +1,5 @@
+package com.sush.microservices.limitsservice.bean;
+
+public class LimitConfiguration {
+
+}

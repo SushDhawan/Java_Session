@@ -1,0 +1,4 @@
+spring.cloud.config.import-check.enabled=false
+
+limits-service.maximum=9999
+limits-service.minimum=99

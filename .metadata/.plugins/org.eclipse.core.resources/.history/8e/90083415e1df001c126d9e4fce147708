@@ -1,0 +1,21 @@
+package com.sush.annotiocprj;
+
+public class AnotherBean {
+	
+	public void show() {
+		System.out.printlm(@Bean 
+				public MyMessage createBean() {
+			
+			return new MyMessage();
+		}@Bean 
+				public MyMessage createBean() {
+			
+			return new MyMessage();
+		}@Bean 
+				public MyMessage createBean() {
+			
+			return new MyMessage();
+		}lse);
+	}
+
+}

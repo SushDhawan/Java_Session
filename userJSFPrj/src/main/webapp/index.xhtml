@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+<head>
+<title>A User page</title>
+</head>
+<body>
+	<div
+		style="width: 100%; font-size: 36px; line-height: 48px; background-color: navy; color: white; text-align : center">Hello
+		Everyone</div>
+
+		<h:body>
+			<h:form>
+			<br/>
+			<br/>
+			<h:outputLabel for="firstName" value="First Name"/>
+		 	<h:inputText id="firstName"  value= "#{user.firstName}"></h:inputText>
+			
+			<h:outputLabel for="lastName" value="Last Name"/>
+		 	<h:inputText id="lastName" value= "#{user.lastName}"></h:inputText>
+			
+			<h:commandButton value="Submit" action = "welcome"></h:commandButton>
+			</h:form>
+		</h:body>
+
+</body>
+</html> 

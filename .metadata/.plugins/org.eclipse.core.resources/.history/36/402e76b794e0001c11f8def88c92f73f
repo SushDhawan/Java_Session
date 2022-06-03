@@ -1,0 +1,5 @@
+package com.sush.springmvc;
+
+public class MyController {
+
+}

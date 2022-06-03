@@ -1,0 +1,7 @@
+import org.springframework.data.repository.CrudRepository;
+
+import com.sush.springboot1.entity.Customer;
+
+public interface CustomerRepository extends CrudRepository<Customer, Long> {
+
+}

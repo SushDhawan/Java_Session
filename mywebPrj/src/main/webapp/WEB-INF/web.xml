@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+ 
+ <context-param>
+ 	<param-name>name</param-name>
+ 	<param-value>Sushmita</param-value>
+ </context-param>
+ 
+  <servlet>
+    <servlet-name>AddServlet</servlet-name>
+    <servlet-class>com.sush.mywebPrj.AddServlet</servlet-class>
+    <init-param>
+    	<param-name>AddParam</param-name>
+    	<param-value>Sush - in Add Servlet</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddServlet</servlet-name>
+    <url-pattern>/AddServlet</url-pattern>
+  </servlet-mapping>
+  <display-name>mywebPrj</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>SqServlet</display-name>
+    <servlet-name>SqServlet</servlet-name>
+    <servlet-class>com.sush.mywebPrj.SqServlet</servlet-class>
+     <init-param>
+    	<param-name>SqParam</param-name>
+    	<param-value>Sush - in Sq Servlet</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SqServlet</servlet-name>
+    <url-pattern>/sqr</url-pattern>
+  </servlet-mapping>
+</web-app>

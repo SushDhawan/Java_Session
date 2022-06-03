@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\sushm\Danske-WorkSpace\springmvc1"/>
+			<item value="C:\Users\sushm\Danske-WorkSpace\myspringmvc"/>
+			<item value="C:\Users\sushm\eclipse-workspace\cdi-managed-bean"/>
+			<item value="C:\Users\sushm\Danske-WorkSpace\userJSFPrj\src\main\java\com\sush\userjsf\User.java"/>
+			<item value="C:\Users\sushm\Danske-WorkSpace\myOptionalPrj\src\com\sush\myOptionalPrj"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.sush.myjpaprj"/>
+			<item value="com.sush.springmvc1"/>
+			<item value="com.sush.mymvcprj"/>
+			<item value="com.sush.myspringmvc"/>
+			<item value="com.sush.annotiocprj"/>
+			<item value="com.sush.myiocprj"/>
+			<item value="com.sush.myspring"/>
+			<item value="com.sush.tablehierarchy"/>
+			<item value="com.sush.inheritance"/>
+			<item value="com.sush.hibernate.myDataPrj"/>
+			<item value="com.sush.jsfv.jsfvalidprj"/>
+			<item value="com.sush.jsfprj.myJsfPrj"/>
+			<item value="com.sush.jsfprj.jsfcdibeans"/>
+		</list>
+		<list key="groupId">
+			<item value="com.sush"/>
+			<item value="com.sush.hibernate"/>
+			<item value="com.sush.jsfv"/>
+			<item value="com.sush.jsfprj"/>
+		</list>
+		<list key="artifactId">
+			<item value="myjpaprj"/>
+			<item value="springmvc1"/>
+			<item value="mymvcprj"/>
+			<item value="myspringmvc"/>
+			<item value="annotiocprj"/>
+			<item value="myiocprj"/>
+			<item value="myspring"/>
+			<item value="tablehierarchy"/>
+			<item value="inheritance"/>
+			<item value="myDataPrj"/>
+			<item value="jsfvalidprj"/>
+			<item value="myJsfPrj"/>
+			<item value="jsfcdibeans"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

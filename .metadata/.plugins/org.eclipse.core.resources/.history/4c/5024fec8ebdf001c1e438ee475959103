@@ -1,0 +1,8 @@
+package com.sush.myspringmvc;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class MyController {
+
+}

@@ -1,0 +1,5 @@
+package com.sush.SpringBootRest.entity;
+
+public class Customer {
+
+}

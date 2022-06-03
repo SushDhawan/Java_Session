@@ -1,0 +1,5 @@
+package com.sush.springboot1;
+
+public interface CustomerRepository {
+
+}

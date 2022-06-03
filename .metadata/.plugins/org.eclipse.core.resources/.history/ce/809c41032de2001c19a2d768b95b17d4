@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>Index Page</title>
+</head>
+
+<body>
+	<h2>List of all Customers</h2>
+	<p>
+		<a href="All customers">Get all Customers</a>
+	</p>
+</body>
+</html>

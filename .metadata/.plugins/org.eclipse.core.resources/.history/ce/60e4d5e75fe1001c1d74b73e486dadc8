@@ -1,0 +1,27 @@
+package com.sush.myjpaprj2;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.sush.myjpaprj2.repository.CustomerRepository;
+
+@SpringBootApplication
+public class Myjpaprj2Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Myjpaprj2Application.class, args);
+	}
+
+	public CommandLineRunner customerDemo(CustomerRepository custRepo) {
+		
+		return (args) -> {
+			
+			//  create some customer records 
+			
+			
+		};
+		
+		
+	}
+}

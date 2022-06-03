@@ -1,0 +1,10 @@
+package com.sush.SpringBootRest.controller;
+
+import java.util.List;
+
+import com.sush.SpringBootRest.entity.Customer;
+
+public interface ICustomerService {
+
+	List<Customer> findAll();
+}

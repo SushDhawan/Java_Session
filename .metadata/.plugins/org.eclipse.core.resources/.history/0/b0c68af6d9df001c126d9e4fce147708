@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="emp1" class="com.sush.myiocprj.Employee">
+		<property name="id" value="101" />
+		<property name="name" value="Rohan" />
+	</bean>
+
+	<bean id="emp2" class="com.sush.myiocprj.Employee">
+		<constructor-arg value="102" type="int" />
+		<constructor-arg value="Noynika" />
+		<constructor-arg>
+			<ref bean="address1" />
+		</constructor-arg>
+		<constructor-arg>
+			<list>
+				<ref bean="s1" />
+				<ref bean="s3" />
+			</list>
+		</constructor-arg>
+	</bean>
+
+	<bean id="address1" class="com.sush.myiocAddress">
+		<constructor-arg value="Bengaluru" />
+		<constructor-arg value="KA" />
+		<constructor-arg value="India" />
+	</bean>
+
+	<bean id="s1" class="com.sush.myiocprj.Skill">
+		<constructor-arg value="21" type="int" />
+		<constructor-arg value="Java" />
+	</bean>
+	<bean id="s2" class="com.sush.myiocprj.Skill">
+		<constructor-arg value="22" type="int" />
+		<constructor-arg value="PHP" />
+	</bean>
+	<bean id="s3" class="com.sush.myiocprj.Skill">
+		<constructor-arg value="23" type="int" />
+		<constructor-arg value="MySQL" />
+	</bean>
+	<bean id="s4" class="com.sush.myiocprj.Skill">
+		<constructor-arg value="24" type="int" />
+		<constructor-arg value="JSP" />
+	</bean>
+
+</beans>

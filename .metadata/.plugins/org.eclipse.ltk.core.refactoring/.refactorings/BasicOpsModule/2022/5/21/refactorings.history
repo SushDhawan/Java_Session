@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.sush.OpSessionBeanLocal&apos; to &apos;OpSessionBeanRemote&apos;&#x0D;&#x0A;- Original project: &apos;BasicOpsModule&apos;&#x0D;&#x0A;- Original element: &apos;com.sush.OpSessionBeanLocal&apos;&#x0D;&#x0A;- Renamed element: &apos;com.sush.OpSessionBeanRemote&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;OpSessionBeanLocal&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/ejbModule&lt;com.sush{OpSessionBeanLocal.java[OpSessionBeanLocal" matchStrategy="1" name="OpSessionBeanRemote" qualified="false" references="true" similarDeclarations="false" stamp="1652769466225" textual="false" version="1.0"/>
+</session>

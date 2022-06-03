@@ -1,0 +1,13 @@
+package com.sush.microservices.currencyconversionservice;
+
+import java.math.BigDecimal;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CurrencyConversionController {
+
+	public void convertCurrency(String from, String to, BigDecimal qty) {
+		return;
+	}
+}

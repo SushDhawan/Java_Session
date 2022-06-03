@@ -1,0 +1,13 @@
+package com.sush.myspringmvc;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class MyController {
+	
+	
+	public void sayHello() {
+		System.out.println("Hello from myController");
+	}
+
+}
